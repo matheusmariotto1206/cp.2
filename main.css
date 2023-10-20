@@ -1,0 +1,108 @@
+body{
+   
+    font-family: Arial, sans-serif;
+    font-size: 62.5%;
+    @media (max-width:768px) {
+        body{
+            font-size: 14px;
+        }
+    }
+}
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f7f7f7;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+header {
+
+    background-image: url("img/massa-de-tagliatelle-cru-perto-e-ingredientes-e-molho-de-tomate-sobre-o-plano-de-fundo-texturizado-de-madeira.jpg");
+    background-position: 70px -430px;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+
+    padding: 60px;
+
+}
+
+
+h1 {
+
+    font-size: 45px;
+
+}
+
+
+nav {
+
+    background-color: #5a9a86;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+
+nav ul {
+
+    list-style: none;
+    
+    padding: 0;
+
+}
+
+
+nav li {
+
+    display: inline;
+
+    margin: 0 20px;
+
+}
+
+
+.container {
+
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    padding: 20px;
+    
+    background-color: #fff;
+
+
+}
+
+
+.recipe {
+
+    margin: 20px 0;
+
+    padding: 20px;
+    
+    background-color: #f3f3f3;
+
+}
+
+
+footer {
+
+    background-color: #5a9a86;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
